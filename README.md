@@ -62,19 +62,23 @@ track down bugs or go back to previous versions of the code.
 ## STEPS FOR PUSH AND PULL
 
 1--> to generate keys: ssh-keygen
+
 2--> push command: git push origin master
 
-# when we create a folder locally
+## When we create a folder locally
 
 1)git init
+
 2)git status
+
 3)git add
+
 4)git commit
 
-# create an empty repository in github
+## create an empty repository in github
 5)git remote add origin(link of the empty repo)
 
-# to display the activity
+## to display the activity
        git remote -v
        
 7)git push -u origin master/main
