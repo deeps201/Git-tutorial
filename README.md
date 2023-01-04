@@ -45,25 +45,27 @@ track down bugs or go back to previous versions of the code.
 
 1--> git clone (link http or ssh)
 
-2--> to display the everything
-      ls-la
+## 2--> to display the everything
+         ls-la
       
- 3--> to view the status of the repo
-      git status
+## 3--> to view the status of the repo
+        git status
       
- 4--> to track files
-      git add (filename including extension)
+## 4--> to track files
+       git add (filename including extension)
    --> track all changes
-      git add .
+       git add .
       
- 5--> to add a message and description
-      git commit -m (filename) -m (description)
+## 5--> to add a message and description
+        git commit -m (filename) -m (description)
       
 ## STEPS FOR PUSH AND PULL
 
-1--> to generate keys: ssh-keygen
+1--> to generate keys
+     ssh-keygen
 
-2--> push command: git push origin master
+2--> push command
+     git push origin master
 
 ## When we create a folder locally
 
