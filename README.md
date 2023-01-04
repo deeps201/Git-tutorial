@@ -112,3 +112,27 @@ track down bugs or go back to previous versions of the code.
        git add
        git commit -m (filename) -m (description)
        git push origin master
+## 4) Combing the step of adding and committing
+       git commit -am
+       
+       
+## MERGING BRANCHES
+
+## STEP 1
+     git checkout master
+## To find the difference between branches
+     git diff branchname
+## To find the status of the file
+     git status
+## Push the changes into the repo
+     git -u origin branchname
+     
+## STEPS TO DELETE A FEATURE BRANCH AFTER MERGING
+      git branch
+      git branch -d branchname
+ 
+ ## STEPS TO UNDO A GIT 
+       git reset filename(to remove commit)
+       git reset HEAD ~1[^1].
+       
+ [^1]HEAD- POINTER TO LAST COMMIT
