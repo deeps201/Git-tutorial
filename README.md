@@ -86,8 +86,13 @@ track down bugs or go back to previous versions of the code.
 ## STEP 5:Create an empty repository in github
       git remote add origin(link of the empty repo)
 
-## to display the activity
+## To display the activity
        git remote -v
        
-## UPSTREAM
+## Upstreaming
      git push -u origin master/main
+
+## GIT_BRANCHING
+*Master branch-default branch
+*Feature branch-additional branch
+*Hotfix branch-bug fixing branch
