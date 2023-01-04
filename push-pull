@@ -1,0 +1,14 @@
+1--> to generate keys: ssh-keygen
+2--> push command: git push origin master
+
+# when we create a folder locally
+
+1)git init
+2)git status
+3)git add
+4)git commit
+5)#create an empty repository in github
+6)git remote add origin(link of the empty repo)
+7)# to display the activity
+       git remote -v
+8)git push -u origin master/main
