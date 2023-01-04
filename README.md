@@ -88,10 +88,10 @@ track down bugs or go back to previous versions of the code.
 # GIT_BRANCHING
 
 1)Master branch-default branch
- ..* Creating the clone of master branch as "feature branch".
+ * Creating the clone of master branch as "feature branch".
 
 2)Feature branch-additional branch
-  ..* When we make changes in the master branch it does affect the feature branch similarly for master branch.
+ * When we make changes in the master branch it does affect the feature branch similarly for master branch.
 
  3)Hotfix branch-bug fixing branch
 
@@ -126,6 +126,5 @@ track down bugs or go back to previous versions of the code.
  
  # STEPS TO UNDO A GIT 
        git reset filename(to remove commit)
-       git reset HEAD ~1[^1].
+       git reset HEAD ~1
        
- [^1]: HEAD IS A POINTER TO LAST COMMIT.
