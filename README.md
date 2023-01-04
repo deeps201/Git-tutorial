@@ -43,44 +43,51 @@ track down bugs or go back to previous versions of the code.
 
 ## STEPS TO CLONE
 
-1--> git clone (link http or ssh)
+## 1) Git cloning
+       git clone (link http or ssh)
 
-## 2--> to display the everything
+## 2) To display the everything
          ls-la
       
-## 3--> to view the status of the repo
+## 3) To view the status of the repo
         git status
       
-## 4--> to track files
+## 4) To track files
        git add (filename including extension)
-   --> track all changes
+       
+## Track all changes
        git add .
       
-## 5--> to add a message and description
+## 5) To add a message and description
         git commit -m (filename) -m (description)
       
 ## STEPS FOR PUSH AND PULL
 
-1--> to generate keys
+## 1) To generate keys
      ssh-keygen
 
-2--> push command
+## 2) Push command
      git push origin master
 
 ## When we create a folder locally
 
-1)git init
+## STEP1:
+     git init
 
-2)git status
+## STEP 2:
+     git status
 
-3)git add
+## STEP 3: 
+     git add
 
-4)git commit
+## STEP 4:
+     git commit
 
-## create an empty repository in github
-5)git remote add origin(link of the empty repo)
+## STEP 5:Create an empty repository in github
+      git remote add origin(link of the empty repo)
 
 ## to display the activity
        git remote -v
        
-7)git push -u origin master/main
+## UPSTREAM
+     git push -u origin master/main
