@@ -1,0 +1,10 @@
+1--> current branch 
+     git branch
+     
+2-->checkout used to switch between branches 
+    git checkout -b branchname 
+  
+3-->add to git repo
+   git add
+   git commit -m (name) .-m (description)
+   git push origin master
