@@ -93,6 +93,10 @@ track down bugs or go back to previous versions of the code.
      git push -u origin master/main
 
 ## GIT_BRANCHING
-*Master branch-default branch
-*Feature branch-additional branch
-*Hotfix branch-bug fixing branch
+
+1)Master branch-default branch-->Creating the clone of master branch as "feature branch"
+
+2)Feature branch-additional branch-->When we make changes in the master branch it does affect the feature branch similarly for master branch.
+
+3)Hotfix branch-bug fixing branch
+
