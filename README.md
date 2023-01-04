@@ -129,10 +129,11 @@ track down bugs or go back to previous versions of the code.
        git reset HEAD ~1
  ###### head is a pointer to last commit.
  
+ 
  # TO FIND ALL THE COMMITS IN CHRONOLOGICAL ORDER
        git log
        
- Note:
+
 # FORKING
 * Complete copy of the repository
 * It is used to make changes in the file when the user do not have the access to edit.
