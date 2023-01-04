@@ -1,18 +1,18 @@
 # GIT-TUTORIAL
 Git and Github general introduction
 
-## GIT
+# GIT
 
 Definition: Free and open source version control system
 
 
-## VERSION CONTROL
+# VERSION CONTROL
 
 Definition: Process of managing the changes in documents,computer programs, large web sites and other collections of information. It also helps to
 track down bugs or go back to previous versions of the code.
 
 
-## TERMS
+# TERMS
 1) DIRECTORY: Folder
 
 2) TERMINAL OR COMMAND LINE: Interface for text commands.
@@ -29,7 +29,7 @@ track down bugs or go back to previous versions of the code.
 
 8) GIT: Tool that tracks the changes in your code overtime.
 
-## COMMANDS
+# COMMANDS
 
 1) CLONE: Bring a repository that is hosted somewhere like github into a folder on ypur local machine.
 
@@ -41,7 +41,7 @@ track down bugs or go back to previous versions of the code.
 
 5) PULL: Download changes from remote repository.
 
-## STEPS TO CLONE
+# STEPS TO CLONE
 
 ## 1) Git cloning
        git clone (link http or ssh)
@@ -61,7 +61,7 @@ track down bugs or go back to previous versions of the code.
 ## 5) To add a message and description
         git commit -m (filename) -m (description)
       
-## STEPS FOR PUSH AND PULL
+# STEPS FOR PUSH AND PULL
 
 ## 1) To generate keys
      ssh-keygen
@@ -69,21 +69,14 @@ track down bugs or go back to previous versions of the code.
 ## 2) Push command
      git push origin master
 
-## When we create a folder locally
+## To create a folder locally
 
-## STEP1:
      git init
-
-## STEP 2:
      git status
-
-## STEP 3: 
      git add
-
-## STEP 4:
      git commit
 
-## STEP 5:Create an empty repository in github
+## Create an empty repository in github
       git remote add origin(link of the empty repo)
 
 ## To display the activity
@@ -92,15 +85,17 @@ track down bugs or go back to previous versions of the code.
 ## Upstreaming
      git push -u origin master/main
 
-## GIT_BRANCHING
+# GIT_BRANCHING
 
-1)Master branch-default branch-->Creating the clone of master branch as "feature branch"
+1)Master branch-default branch
+ ..* Creating the clone of master branch as "feature branch"
 
-2)Feature branch-additional branch-->When we make changes in the master branch it does affect the feature branch similarly for master branch.
+2)Feature branch-additional branch
+  ..* When we make changes in the master branch it does affect the feature branch similarly for master branch.
 
-3)Hotfix branch-bug fixing branch
+ 3)Hotfix branch-bug fixing branch
 
-## Steps for branching
+# Steps for branching
 
 ## 1)  Command to indicate current branch 
         git branch
@@ -116,10 +111,8 @@ track down bugs or go back to previous versions of the code.
        git commit -am
        
        
-## MERGING BRANCHES
+# MERGING BRANCHES
 
-## STEP 1
-     git checkout master
 ## To find the difference between branches
      git diff branchname
 ## To find the status of the file
@@ -127,12 +120,12 @@ track down bugs or go back to previous versions of the code.
 ## Push the changes into the repo
      git -u origin branchname
      
-## STEPS TO DELETE A FEATURE BRANCH AFTER MERGING
+# STEPS TO DELETE A FEATURE BRANCH AFTER MERGING
       git branch
       git branch -d branchname
  
- ## STEPS TO UNDO A GIT 
+ # STEPS TO UNDO A GIT 
        git reset filename(to remove commit)
        git reset HEAD ~1[^1].
        
- [^1]HEAD- POINTER TO LAST COMMIT
+ [^1]:HEAD- POINTER TO LAST COMMIT.
