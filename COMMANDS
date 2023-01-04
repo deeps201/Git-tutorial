@@ -1,9 +1,0 @@
-1) CLONE: bring a repository that is hosted somewhere like github into a folder on ypur local machine.
-
-2) ADD: track your file and changes in git.
-
-3) COMMIT: save your files in git,
-
-4) PUSH: upload git commits to remote repository.
-
-5) PULL: download changes from remote repository.
