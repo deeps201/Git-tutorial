@@ -100,3 +100,15 @@ track down bugs or go back to previous versions of the code.
 
 3)Hotfix branch-bug fixing branch
 
+## Steps for branching
+
+## 1)  Command to indicate current branch 
+        git branch
+     
+## 2)  Checkout used to switch between branches 
+       it checkout -b branchname 
+  
+## 3)  Add to git repo
+       git add
+       git commit -m (filename) -m (description)
+       git push origin master
