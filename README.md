@@ -101,7 +101,7 @@ track down bugs or go back to previous versions of the code.
         git branch
      
 ## 2)  Checkout used to switch between branches 
-       it checkout -b branchname 
+        git checkout -b branchname 
   
 ## 3)  Add to git repo
        git add
